@@ -1,0 +1,9 @@
+*.jdisk
+*.txt
+*.jpg
+*.sh
+gradeall
+*.pdf
+bin/*
+obj/*
+*.html
