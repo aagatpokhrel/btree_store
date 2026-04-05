@@ -9,7 +9,8 @@ others: bin/b_tree_test_inst \
         bin/b_tree_dcs \
 
 clean:
-	rm -f a.out obj/* bin/*
+	rm -f a.out obj/*
+	rm -f bin/jdisk_test bin/b_tree_test bin/random_tester_1 bin/random_tester_2 bin/b_tree_test_inst
 
 LIBS = /home/jplank/lib/LINUX-X86_64/libfdr.a
 INCLUDE = -I/home/jplank/include -Iinclude
